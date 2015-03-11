@@ -7,7 +7,7 @@ public class textDisplay2 : MonoBehaviour {
 	// Use this for initialization
 	
 	GameObject sheep, chimney1, chimney2, chimney3, chimney4, chimney5, chimney6;
-	bool r1, r2, r3, r4, r5, r6; //to denote whether a chimney has been reached before;
+	public bool r1, r2, r3, r4, r5, r6; //to denote whether a chimney has been reached before;
 	public int delivers = 0;
 	
 	
@@ -24,8 +24,8 @@ public class textDisplay2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//string textBuffer = "Find a chimney to deliver pizza. \nPress [SPACE] to jump.";
-		string textBuffer = "[Space] - jump \n [A] - forward \n [W] - backward \n [A][D] - rotate";
-		textBuffer +="\nYou're a decent sheep who delivers pizza from chimneys for a living!";
+		string textBuffer = "[Space] - jump \n [W] - forward \n [S] - backward \n [A][D] - rotate";
+		textBuffer +="\nYou're a decent sheep who delivers pizza into chimneys for a living!";
 		textBuffer += "\nFind all chimneys!";
 		textBuffer += "\nYou've reached " + delivers.ToString() + " out of 6 chimneys.";
 
