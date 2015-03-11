@@ -47,8 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Chimney.cs" />
+     <Compile Include="Assets\Scripts\JumpingWithForce.cs" />
      <Compile Include="Assets\Scripts\MoveSheep.cs" />
+     <Compile Include="Assets\Scripts\MoveSheep_Copy.cs" />
+     <Compile Include="Assets\Scripts\NewJumpScript.cs" />
      <Compile Include="Assets\Scripts\TextDisplay.cs" />
+     <Compile Include="Assets\Scripts\cableCar.cs" />
+     <Compile Include="Assets\Scripts\textDisplay2.cs" />
+     <Compile Include="Assets\Scripts\windMill.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,6 +1,6 @@
 //Maya ASCII 2015 scene
 //Name: chimney.ma
-//Last modified: Mon, Mar 02, 2015 02:34:27 PM
+//Last modified: Tue, Mar 10, 2015 02:58:12 PM
 //Codeset: UTF-8
 requires maya "2015";
 requires -nodeType "mentalrayFramebuffer" -nodeType "mentalrayOptions" -nodeType "mentalrayGlobals"
@@ -14,12 +14,12 @@ fileInfo "osv" "Mac OS X 10.9.2";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 26.932712410191197 25.373426724812624 4.2657225815098414 ;
-	setAttr ".r" -type "double3" -42.938352729603459 81.000000000000384 0 ;
+	setAttr ".t" -type "double3" 89.196896172185831 65.681217948596995 -4.0504073539147356 ;
+	setAttr ".r" -type "double3" -36.33835272959459 92.600000000000307 -7.6333312355124402e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 37.247525698653853;
+	setAttr ".coi" 110.84455096077068;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
