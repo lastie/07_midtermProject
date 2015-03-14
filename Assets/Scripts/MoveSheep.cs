@@ -57,7 +57,7 @@ public class MoveSheep : MonoBehaviour {
 				r6 = true;
 			}
 			
-			if (transform.position.y < 10) {
+			if (transform.position.y < initialPosition.y - 50f) {
 				transform.position = initialPosition;
 			}
 			
